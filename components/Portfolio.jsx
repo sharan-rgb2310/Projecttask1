@@ -53,15 +53,15 @@ export default function Portfolio() {
               className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden hover:border-indigo-500/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-indigo-900/40"
             >
               {/* Image with zoom */}
-              <div className="relative w-full aspect-square overflow-hidden">
-                <Image
-                  src={p.image}
-                  alt={p.title}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
-                />
-              </div>
+              <div className="overflow-hidden h-52">
+  <Image
+    src={p.image}
+    alt={p.title}
+    width={480}
+    height={300}
+    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+  />
+</div>
 
               {/* Card info */}
               <div className="p-5">

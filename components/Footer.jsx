@@ -103,7 +103,7 @@ export default function Footer() {
         </div>
 
         <p className="text-center text-xs text-gray-600 mt-8">
-          © {year} Pixora Studio. All rights reserved. Built with Next.js & Tailwind CSS.
+          © {year} Pixora Studio. All rights reserved.
         </p>
       </div>
     </footer>
